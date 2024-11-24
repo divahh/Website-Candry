@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Styles -->
+    <link rel="icon" type="image" href="images/icon.png">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
+
+    <title>Candry</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/Bubble.png" id="logo">
+        <nav>
+            <li><a href="#features">FEATURES</a></li>
+            <li><a href="#info">INFO</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+        </nav>
+        <div id="jumbotron">
+            <img src="images/Clean cat.jpg">
+            <div id="divider">
+                <h1>CANDRY</h1>
+                <p>A useful website provide by cat owner to wash customer's laundry. Discover easiness in 3 features such as washing, delivering, and notifying customer.</p>
+            </div>            
+        </div>
+    </header>
+
+    <main id="features">
+        <aside>
+            <h2>FEATURES</h2>
+            <div id="features-content">
+                <a href="#w"><img src="images/wash.png" alt="Washing image"></a>
+                <a href="#d"><img src="images/deliver.png" alt="Delivering image"></a>
+                <a href="#n"><img src="images/notif.png" alt="Notifying image"></a>
+            </div>
+            <img src="images/pagediv.png" id="pageDivider">
+        </aside>
+
+        <article id="title">
+            <h4 id="w">
+                WASHING 
+            </h4>
+            <h4 id="d">
+                DELIVERING
+            </h4>
+            <h4 id="n">
+                NOTIFYING
+            </h4>
+        </article>
+        <article id="info">
+            <p>Washing clothes refers to the process of cleaning clothes, usually with water and soap or detergent. 
+                Washing clothes is an essential part of good hygiene and health. People use soaps and detergents to assist in the emulsification of oils and dirt particles so they can be washed away.
+                Washing clothes can be done by hand or with a washing machine.
+                Washing clothes too frequently can cause damage to the fabric, such as shrinking, fading, or pilling.
+                It is important to understand the impact of washing clothes on the environment and to make changes to laundry routines to reduce emissions, save money, and take better care of clothes.</p>
+            <p>Laundry delivery service refers to a service that picks up dirty laundry from a customer's location, such as their home or workplace, and delivers it back to them after it has been cleaned. 
+                This service is designed to save customers time and effort, especially those who are busy with work, school, or other social engagements. 
+                Laundry delivery services typically offer wash and fold services, where trained professionals wash, dry, and fold the laundry for the customer.
+                Some laundry delivery services also offer additional services such as dry cleaning, pressing, and alterations. 
+                The benefits of using a laundry delivery service include convenience, professional cleaning, faster turnaround time, and the ability to save time and money.</p>
+            <p>Notifying laundry app is an application that sends notifications to users when their laundry is done or when their washing machine is available for use. 
+                Some laundry apps also allow users to pay for laundry services, track the status of their laundry, and request additional services such as dry cleaning or alterations. 
+                Laundry apps may use sensors or smart devices to detect when a washing machine has stopped vibrating or when a cycle has completed, and then send a notification to the user's phone or other device. 
+                The purpose of a notifying laundry app is to provide users with greater convenience and control over their laundry routines, allowing them to save time and effort while ensuring that their clothes are cleaned and cared for properly.</p>
+        </article>
+    </main>
+    
+    <footer>
+        <h2>ABOUT US</h2>
+        <div id="about">
+            <img src="images/coki.jpg">
+            <div id="credit">
+                <p>
+                    &copy; 2023, Diva Halimah Hasan
+                </p>
+                <h3>- CAT LAUNDRY -</h3>
+                <button id="play">Play music</button>
+                <script type="text/javascript">
+                    let play = document.getElementById("play");
+                    function playAudio() {
+                        let audio = new Audio("videoplayback.weba");
+                        audio.play();
+                    }
+                    play.addEventListener("click", playAudio);
+                </script>
+            </div>
+            <div id="sosmed">
+                <h3>Social Media</h3>
+                <a href="https://instagram.com/di.vayaa?igshid=MzRlODBiNWFlZA==">
+                    <img src="images/instagram.png">
+                </a>
+                <a href="https://x.com/divmew?t=nKVbYjqFDHMCCjB7nWEDOA&s=08">
+                    <img src="images/twitter.png">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-- Javascript -->
+    <script src="welcome.js"></script>
+    <!-- Taruh javascript di bagian yang sesuai dengan yang kamu mau -->
+</body>
+</html>
